@@ -1,0 +1,94 @@
+/* ---------- ABOUT PAGE ---------- */
+
+.about-section {
+  height: 100vh;
+  background: url('about-bg.jpg') no-repeat center center/cover;
+  position: relative;
+  color: white;
+}
+
+.about-section .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  padding: 100px 80px 60px;
+}
+
+.about-content {
+  max-width: 900px;
+  margin-bottom: 50px;
+}
+
+.about-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* ---------- TEAM SECTION ---------- */
+.team-section {
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.team-section span {
+  color: #00b4d8;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.team-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  color: white;
+}
+
+.team-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.team-card p {
+  font-size: 0.95rem;
+  color: #ddd;
+  margin-bottom: 15px;
+}
+
+.role-btn {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.role-btn:hover {
+  background-color: #0096c7;
+}
